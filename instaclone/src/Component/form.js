@@ -21,7 +21,7 @@ function FormHandle(){
         try{
             await axios({
 
-                url: "http://localhost:3000/users",
+                url: "https://node-instaclone-project.onrender.com/users",
                 method: "post",
                 data: formData,
                 headers: { "Content-Type": "multipart/form-data" },

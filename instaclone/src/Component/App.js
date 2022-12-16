@@ -3,7 +3,7 @@ import "../Styles/App.css"
 import React from "react";
 import Form from "./form";
 
- import LandingPage from "./landingPage";
+ import LandingPage from "./landingPage"; 
  import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
